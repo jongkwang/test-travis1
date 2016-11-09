@@ -12,10 +12,5 @@ public class CalculatorTest {
         assertEquals(c.sum(1,2), 3);
     }
 
-    @Test
-    public void sum2() throws Exception {
-        Calculator c = new Calculator();
-        assertEquals(c.sum(2,3), 5);
-    }
 
 }
